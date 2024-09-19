@@ -43,6 +43,7 @@
 .resume{
     text-align: justify;
     padding-top: 10px;
+    border-bottom: solid rgb(0, 0, 0) 2px;
 }
 .resume p{
     padding: 1rem;
@@ -51,6 +52,10 @@
 .habilidades{
     padding: 2rem;
     text-align: left;
+}
+
+.habilidades h2{
+    margin-bottom: 1.5rem;
 }
 
 .habilidades ul li{
@@ -83,6 +88,7 @@
 }
 
 .footerStyle {
+    border-top: solid rgb(0, 0, 0) 2px;
     text-align: center;
     padding: 1rem;
     background: #f1f1f1;

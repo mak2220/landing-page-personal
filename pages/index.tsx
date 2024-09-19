@@ -32,7 +32,7 @@ export default function Home() {
             <div>
                 <section className={styles.resume}>
                     <h2>Resumen Profesional</h2>
-                    <p>Desarrollador full-stack con sólida experiencia de HTML, CSS, JavaScript, React, Next.js, MongoDB y Mongo Atlas, implementando soluciones de IA y trabajando en equipos ágiles. Manejo avanzado del inglés, tanto hablado como escrito, lo que me permite comunicarme eficientemente en equipos internacionales y trabajar con documentación técnica en inglés.</p>
+                    <p>Desarrollador full-stack con sólida experiencia de HTML, CSS, JavaScript, React, Next.js, MongoDB y Mongo Atlas, implementando soluciones de IA y trabajando en equipos ágiles. Manejo avanzado del inglés, lo que me permite comunicarme eficientemente en equipos internacionales y trabajar con documentación técnica en inglés.</p>
                 </section>
 
                 {/* Habilidades */}
@@ -42,8 +42,10 @@ export default function Home() {
                         <li>HTML, CSS, JavaScript (ES6+)</li>
                         <li>React, Next.js</li>
                         <li>MongoDB, Mongo Atlas</li>
+                        <li>Boostrap</li>
+                        <li>Creación de Hoja de Estilos Nativa</li>
                         <li>Implementación de Inteligencia Artificial</li>
-                        <li>Git, Docker, Visual Studio Code</li>
+                        <li>Git, Visual Studio Code</li>
                         <li>Idiomas: Español(Nativo);<br/>
                         <span className={styles.idiomas}>Ingles(Avanzado)</span></li>
                     </ul>
