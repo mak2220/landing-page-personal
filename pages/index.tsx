@@ -1,12 +1,12 @@
-// pages/index.tsx
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
 import styles from '../styles/index.module.css';
 import Image from  'next/image'; 
-
+import Link from  'next/link';
 
 export default function Home() {
     return (
-        <main className={styles.main}>
+        <main className={styles.mainStyle}>
         {/* Header */}
             <header className={styles.headerStyle}>
                 <div className={styles.title}>
@@ -25,6 +25,9 @@ export default function Home() {
                             <li>MobileFirst Concept</li>
                             <li>Manejo de Node.js</li>
                         </ul>
+                        <Link href='/contact'>
+                            <h3>Contacto</h3>
+                        </Link>
                 </div>
             </header>
 
@@ -46,7 +49,7 @@ export default function Home() {
                         <li>Creación de Hoja de Estilos Nativa</li>
                         <li>Implementación de Inteligencia Artificial</li>
                         <li>Git, Visual Studio Code</li>
-                        <li>Idiomas: Español(Nativo);<br/>
+                        <li>Idiomas: Español(Nativo)<br/>
                         <span className={styles.idiomas}>Ingles(Avanzado)</span></li>
                     </ul>
                 </section>
@@ -73,9 +76,9 @@ export default function Home() {
                 {/* Contacto */}
                 <footer className={styles.footerStyle}>
                     <h2>Contacto</h2>
-                    <p>Correo: tunombre@email.com</p>
-                    <p>LinkedIn: linkedin.com/in/tunombre</p>
-                    <p>GitHub: github.com/tunombre</p>
+                    <h4>Correo: bertamarcosesteban@gmail.com</h4>
+                    <h4><a href="https://linkedin.com/in/marcos-berta-214b77257" target="_blank" rel="noopener noreferrer">LinkedIn: Marcos Berta</a></h4>
+                    <h4><a href="https://github.com/mak2220/" target="_blank" rel="noopener noreferrer">GitHub: mak2220</a></h4>
                 </footer>
             </div>
     </main>

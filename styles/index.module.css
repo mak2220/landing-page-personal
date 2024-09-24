@@ -1,4 +1,4 @@
-.main{
+.mainStyle{
     display: flex;
     height: 100%;
 
@@ -50,12 +50,12 @@
     line-height: 1.5;
 }
 .habilidades{
-    padding: 2rem;
     text-align: left;
 }
 
 .habilidades h2{
     margin-bottom: 1.5rem;
+    padding: 2rem 0 0 2rem;
 }
 
 .habilidades ul li{
@@ -89,7 +89,12 @@
 
 .footerStyle {
     border-top: solid rgb(0, 0, 0) 2px;
-    text-align: center;
+    text-align: justify;
     padding: 1rem;
     background: #f1f1f1;
-};
+    line-height: 2;
+}
+
+.footerStyle h2{
+    text-align: center;
+}
