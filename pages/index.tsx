@@ -33,7 +33,7 @@ export default function Home() {
                 <section className={styles.resume}>
                     <h2>Resumen Profesional</h2>
                     <p>Desarrollador full-stack con sólida experiencia de HTML, CSS, JavaScript, React, Next.js, MongoDB y Mongo Atlas, implementando soluciones de IA y trabajando en equipos ágiles. Manejo avanzado del inglés, lo que me permite comunicarme eficientemente en equipos internacionales y trabajar con documentación técnica en inglés.</p>
-                    <h2><a href='#contact'>Contacto</a></h2>
+                    <h2><a href='#contact'>Contacto: bertamarcosesteban@gmail.com</a></h2>
                 </section>
                 <section className={styles.habilidades}>
                     <h2>Habilidades Técnicas</h2>
