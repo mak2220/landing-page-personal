@@ -7,14 +7,15 @@ import Link from  'next/link';
 export default function Home() {
     return (
         <main className={styles.mainStyle}>
-        {/* Header */}
             <header className={styles.headerStyle}>
-                <div className={styles.title}>
-                    <h1>Marcos Esteban Berta</h1>
-                </div>
-                <div className={styles.contentImg}>
-                    <Image src="/foto-perfil-cv.png"  alt="perfil" width={300} height={300} className={styles.img}/>
-                </div>
+                <section className={styles.mobile}>
+                    <div className={styles.title}>
+                        <h1>Marcos Esteban Berta</h1>
+                    </div>
+                    <div className={styles.contentImg}>
+                        <Image src="/foto-perfil-cv.png"  alt="perfil" width={300} height={300} className={styles.img}/>
+                    </div>
+                </section>
                 <div className={styles.title}>
                     <h2>Desarrollador especializado en: </h2>
                         <ul>
@@ -25,20 +26,15 @@ export default function Home() {
                             <li>MobileFirst Concept</li>
                             <li>Manejo de Node.js</li>
                         </ul>
-                        <Link href='/contact'>
-                            <h3>Contacto</h3>
-                        </Link>
-                </div>
+                    </div>
             </header>
 
-            {/* Resumen */}
             <div>
                 <section className={styles.resume}>
                     <h2>Resumen Profesional</h2>
                     <p>Desarrollador full-stack con sólida experiencia de HTML, CSS, JavaScript, React, Next.js, MongoDB y Mongo Atlas, implementando soluciones de IA y trabajando en equipos ágiles. Manejo avanzado del inglés, lo que me permite comunicarme eficientemente en equipos internacionales y trabajar con documentación técnica en inglés.</p>
+                    <h2><a href='#contact'>Contacto</a></h2>
                 </section>
-
-                {/* Habilidades */}
                 <section className={styles.habilidades}>
                     <h2>Habilidades Técnicas</h2>
                     <ul>
@@ -53,8 +49,6 @@ export default function Home() {
                         <span className={styles.idiomas}>Ingles(Avanzado)</span></li>
                     </ul>
                 </section>
-
-                {/* Experiencia Profesional */}
                 <section className={styles.profesionalPortfolio}>
                     <h2>Experiencia Profesional</h2>
                     <div>
@@ -63,8 +57,6 @@ export default function Home() {
                         <p>Desarrollo de aplicaciones  por encargo tipo landing page y e-commerce utilizando React y Next.js, con el concepto SPA y MobileFirst optimizando la carga de páginas y mejorando el rendimiento con MongoDB y soluciones AI.</p>
                     </div>
                 </section>
-
-                {/* Proyectos */}
                 <section className={styles.profesionalPortfolio}>
                     <h2>Portfolio</h2>
                     <div>
@@ -72,13 +64,15 @@ export default function Home() {
                         <p>Aplicación e-commerce de prueba y publicidad realizada con React, Next.js y MongoDB.</p>
                     </div>
                 </section>
-
-                {/* Contacto */}
                 <footer className={styles.footerStyle}>
-                    <h2>Contacto</h2>
-                    <h4>Correo: bertamarcosesteban@gmail.com</h4>
-                    <h4><a href="https://linkedin.com/in/marcos-berta-214b77257" target="_blank" rel="noopener noreferrer">LinkedIn: Marcos Berta</a></h4>
-                    <h4><a href="https://github.com/mak2220/" target="_blank" rel="noopener noreferrer">GitHub: mak2220</a></h4>
+                    <h3 id='contact'>Contacto</h3>
+                    <Link href='/contact'>
+                            <p>Haz click para dejarme un mensaje</p>
+                    </Link>
+                    <article>
+                            <h4><a href="https://linkedin.com/in/marcos-berta-214b77257" target="_blank" rel="noopener noreferrer">LinkedIn</a></h4>
+                            <h4><a href="https://github.com/mak2220/" target="_blank" rel="noopener noreferrer">GitHub</a></h4>
+                    </article>    
                 </footer>
             </div>
     </main>

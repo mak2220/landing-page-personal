@@ -23,6 +23,9 @@
 .title h2{
     line-height: 1.5;
 }
+.title h4{
+    text-align: right;
+}
 .title li{
     line-height: 1.5;
     padding-left: 10px;
@@ -89,12 +92,153 @@
 
 .footerStyle {
     border-top: solid rgb(0, 0, 0) 2px;
-    text-align: justify;
+    text-align: center;
     padding: 1rem;
     background: #f1f1f1;
     line-height: 2;
 }
 
-.footerStyle h2{
-    text-align: center;
+.footerStyle article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerStyle p:hover{
+    font-size: large;
+}
+
+.footerStyle article a:hover{
+    color: rgb(255, 255, 255);
+}
+@media(max-width: 990px){
+    .mainStyle{
+        display: flex;
+        flex-direction: column;
+    }
+    .headerStyle{
+        width: 100%;
+        text-align: center;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .title{
+        text-align:left;
+    }
+    .title ul {
+        display: flex;
+        justify-content: space-between; 
+        padding: 0; 
+        list-style: none;
+    }
+    .title li {
+        flex-grow: 1;
+        text-align: center;
+    }
+}
+@media(max-width: 430px) {
+    .headerStyle {
+        padding: 1rem;
+    }
+    .img {
+        width: 80%;                                                                         
+        left: 10%; 
+    }
+    .title h1 {
+        font-size: 1.5rem; 
+    }
+    .title h2 {
+        font-size: 1.2rem;
+    }
+    .title ul {
+        flex-direction: column; 
+        align-items: center;    
+    }
+    .title li {
+        width: 100%;
+        text-align: left;
+    }
+    .resume p {
+        padding: 0.5rem; 
+    }
+    .title {
+        padding: 0.5rem;
+    }
+}
+@media(max-width: 230px) {
+    .headerStyle {
+        width: 100%;
+        padding: 0.5rem;
+        text-align: center;
+    }
+    .img {
+        width: 70%;
+        left: 15%; 
+    }
+    .title h1 {
+        font-size: 1.2rem;
+    }
+    .title h2 {
+        font-size: 1rem; 
+    }
+    .title ul {
+        flex-direction: column; 
+        align-items: flex-start;
+        padding-left: 0; 
+    }
+    .title li {
+        font-size: 0.9rem; 
+        padding-left: 5px; 
+        width: 100%;
+    }
+    .resume p {
+        padding: 0.3rem; 
+        font-size: 0.8rem; 
+    }
+    .idiomas{
+    padding-left: 0;
+    }
+
+    .footerStyle {
+        padding: 0.5rem;
+        line-height: 1.2; 
+    }
+    .footerStyle article {
+        flex-direction: column;
+    }
+    .profesionalPortfolio{
+        padding: 0;
+    } 
+    .profesionalPortfolio h2{
+        font-size: medium;
+        padding: 0;
+        margin: 0;
+    }
+    .profesionalPortfolio h3{
+        font-size: medium;
+        padding: 0;
+        margin: 0;
+    }
+    .habilidades h2{
+        font-size: medium;
+        padding: 0;
+        margin: 0;
+    }
+    .habilidades h3{
+        margin-bottom: 0.5rem;
+        padding: 0;
+    }
+    .habilidades ul {
+        padding-left: 0; 
+        margin-left: 0; 
+    }
+    .habilidades li {
+        padding-left: 0; 
+        margin-left: 0; 
+        text-align: left; 
+    }
 }
