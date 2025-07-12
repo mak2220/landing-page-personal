@@ -22,6 +22,7 @@ export default function Home() {
                         <ul>
                             <li>React</li>
                             <li>Next.js</li>
+                            <li>PWA</li>
                             <li>MongoDB</li>
                             <li>Mongo Atlas</li>
                             <li>MobileFirst Concept</li>
@@ -48,7 +49,9 @@ export default function Home() {
                     <ul>
                         <li>HTML, CSS, JavaScript (ES6+)</li>
                         <li>React, Next.js</li>
+                        <li>PWA</li>
                         <li>MongoDB, Mongo Atlas</li>
+                        <li>Taildwind</li>
                         <li>Boostrap</li>
                         <li>Creating Native CSS</li>
                         <li>Implementation of Artificial Intelligence</li>
@@ -68,8 +71,12 @@ export default function Home() {
                 <section className={styles.profesionalPortfolio}>
                     <h2>Portfolio</h2>
                     <article>
+                        <h3><a href="https://gym-organizator.vercel.app" target="_blank" rel="noopener noreferrer">Gym-Organizator</a></h3>
+                        <p>A PWA created as an example for implementation in gyms from the perspective of sports routine management, built with Next.js and MongoDB, with Taildwind for styles.</p>
+                    </article>
+                    <article>
                         <h3><a href="https://chajariwine.vercel.app" target="_blank" rel="noopener noreferrer">ChajariWine</a></h3>
-                        <p>E-commerce test and advertising application made with React, Next.js and MongoDB.</p>
+                        <p>E-commerce test and advertising application made with React, Next.js and MongoDB. IMPORTANT: This app is currently being customized and migrated to PWA.</p>
                     </article>
                 </section>
                 <footer className={styles.footerStyle}>

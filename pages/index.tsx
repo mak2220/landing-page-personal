@@ -25,6 +25,7 @@ export default function Home() {
                                 <li>Next.js</li>
                                 <li>MongoDB</li>
                                 <li>Mongo Atlas</li>
+                                <li>PWA</li>
                                 <li>MobileFirst Concept</li>
                                 <li>Manejo de Node.js</li>
                             </ul>
@@ -50,6 +51,8 @@ export default function Home() {
                             <li>HTML, CSS, JavaScript (ES6+)</li>
                             <li>React, Next.js</li>
                             <li>MongoDB, Mongo Atlas</li>
+                            <li>PWA</li>
+                            <li>Taildwind</li>
                             <li>Boostrap</li>
                             <li>Creación de Hoja de Estilos Nativa</li>
                             <li>Implementación de Inteligencia Artificial</li>
@@ -63,14 +66,18 @@ export default function Home() {
                         <article>
                             <h3>Desarrollador Full-Stack </h3>
                             <p>Febrero 2022 - Presente</p>
-                            <p>Desarrollo de aplicaciones  por encargo tipo landing page y e-commerce utilizando React y Next.js, con el concepto SPA y MobileFirst optimizando la carga de páginas y mejorando el rendimiento con MongoDB y soluciones AI.</p>
+                            <p>Desarrollo de aplicaciones  por encargo tipo landing page y e-commerce utilizando React y Next.js, con el concepto SPA y MobileFirst optimizando la carga de páginas y mejorando el rendimiento con MongoDB y soluciones AI. Migración de proyectos a PWA</p>
                         </article>
                     </section>
                     <section className={styles.profesionalPortfolio}>
                         <h2>Portfolio</h2>
                         <article>
+                            <h3><a href="https://gym-organizator.vercel.app" target="_blank" rel="noopener noreferrer">Gym-Organizator</a></h3>
+                            <p>PWA creada a modo de ejemplo para su implementación en gimnacios desde la perpectiva de la administración de rutinas deportivas, realizada con Next.js y MongoDB, con Taildwind para estilos.</p>
+                        </article>
+                        <article>
                             <h3><a href="https://chajariwine.vercel.app" target="_blank" rel="noopener noreferrer">ChajariWine</a></h3>
-                            <p>Aplicación e-commerce de prueba y publicidad realizada con React, Next.js y MongoDB.</p>
+                            <p>Aplicación e-commerce de prueba y publicidad realizada con React, Next.js y MongoDB. IMPORTANTE: esta app se encuentra en etapa de customización y migración a PWA.</p>
                         </article>
                     </section>
                     <footer className={styles.footerStyle}>
